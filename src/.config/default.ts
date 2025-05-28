@@ -5,28 +5,20 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: '表达欲',
+    subtitle: 'Expression',
+    author: 'Liang Tao',
+    description: '没什么意义，但也想留下点什么',
+    website: 'https://liangtao.cc',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'rss',
-        href: '/atom.xml',
+        href: 'https://github.com/jimmyrogue',
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://x.com/jimmy_rogue',
       },
     ],
     navLinks: [
@@ -34,10 +26,10 @@ export const defaultConfig: ThemeConfig = {
         name: 'Posts',
         href: '/',
       },
-      {
-        name: 'Archive',
-        href: '/archive',
-      },
+      // {
+      //   name: 'Archive',
+      //   href: '/archive',
+      // },
       {
         name: 'Categories',
         href: '/categories',
@@ -47,7 +39,7 @@ export const defaultConfig: ThemeConfig = {
         href: '/about',
       },
     ],
-    categoryMap: [{ name: '胡适', path: 'hu-shi' }],
+    categoryMap: [{ name: 'Article', path: 'article' }],
     footer: [
       '© %year <a target="_blank" href="%website">%author</a>',
       'Theme <a target="_blank" href="https://github.com/Moeyua/astro-theme-typography">Typography</a> by <a target="_blank" href="https://moeyua.com">Moeyua</a>',
@@ -72,7 +64,7 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '@jimmy_rogue',
     meta: [],
     link: [],
   },
@@ -83,7 +75,7 @@ export const defaultConfig: ThemeConfig = {
     // disqus: { shortname: "typography-astro" },
   },
   analytics: {
-    googleAnalyticsId: '',
+    googleAnalyticsId: 'G-Y85WNZNF3N',
     umamiAnalyticsId: '',
   },
   latex: {
