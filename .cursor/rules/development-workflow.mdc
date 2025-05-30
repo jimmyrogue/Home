@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Development Workflow Guide
+
+## Environment Setup
+1. Node.js version is specified in [.node-version](mdc:.node-version) and [.nvmrc](mdc:.nvmrc)
+2. Package manager is pnpm (see [pnpm-lock.yaml](mdc:pnpm-lock.yaml))
+3. Development environment is managed by mise (see [mise.toml](mdc:mise.toml))
+
+## Key Development Tasks
+
+### Adding New Pages
+1. Create new `.astro` files in [src/pages/](mdc:src/pages)
+2. Use layouts from [src/layouts/](mdc:src/layouts)
+3. Add components from [src/components/](mdc:src/components)
+
+### Adding New Components
+1. Create components in [src/components/](mdc:src/components)
+2. Use TypeScript for type safety
+3. Follow the project's component structure
+
+### Content Management
+1. Add content in [src/content/](mdc:src/content)
+2. Configure content collections in [src/content.config.ts](mdc:src/content.config.ts)
+
+### Styling
+1. Use UnoCSS for styling (see [uno.config.js](mdc:uno.config.js))
+2. Global styles are in [src/styles/](mdc:src/styles)
+
+### Internationalization
+1. Configure languages in [src/i18n.ts](mdc:src/i18n.ts)
+2. Add translations in the appropriate language files
+
+## Code Quality
+1. Follow ESLint rules (see [eslint.config.mjs](mdc:eslint.config.mjs))
+2. Use TypeScript for type safety
+3. Follow the project's coding standards
