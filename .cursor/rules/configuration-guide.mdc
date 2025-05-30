@@ -1,0 +1,52 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Configuration Guide
+
+## Astro Configuration
+The main Astro configuration is in [astro.config.ts](mdc:astro.config.ts). This file controls:
+- Build settings
+- Integration configurations
+- Development server settings
+- Build output settings
+
+## TypeScript Configuration
+TypeScript settings are in [tsconfig.json](mdc:tsconfig.json), including:
+- Compiler options
+- Module resolution
+- Type checking rules
+- Path aliases
+
+## UnoCSS Configuration
+UnoCSS settings are in [uno.config.js](mdc:uno.config.js), controlling:
+- Custom utilities
+- Theme settings
+- Presets
+- Transformers
+
+## ESLint Configuration
+Code quality rules are in [eslint.config.mjs](mdc:eslint.config.mjs), defining:
+- Code style rules
+- Best practices
+- TypeScript-specific rules
+
+## Environment Configuration
+Development environment is managed by:
+- [mise.toml](mdc:mise.toml) - Development tools and versions
+- [.node-version](mdc:.node-version) - Node.js version
+- [.nvmrc](mdc:.nvmrc) - Node version manager settings
+
+## Content Configuration
+Content management settings are in [src/content.config.ts](mdc:src/content.config.ts), defining:
+- Content collections
+- Schema definitions
+- Content validation rules
+
+## Internationalization
+Language settings are in [src/i18n.ts](mdc:src/i18n.ts), including:
+- Available languages
+- Default language
+- Language detection rules
+- Translation loading
