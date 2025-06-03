@@ -72,7 +72,7 @@ export const defaultConfig: ThemeConfig = {
     fullText: true,
   },
   comment: {
-    // disqus: { shortname: "typography-astro" },
+    disqus: { shortname: 'express-11' },
   },
   analytics: {
     googleAnalyticsId: 'G-Y85WNZNF3N',
