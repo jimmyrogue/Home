@@ -6,7 +6,7 @@ import type { ThemeConfig } from '~/types'
 export const defaultConfig: ThemeConfig = {
   site: {
     title: '表达欲',
-    subtitle: 'Expression',
+    subtitle: 'Expressiveness',
     author: 'Liang Tao',
     description: '没什么意义，但也想留下点什么',
     website: 'https://liangtao.cc',
