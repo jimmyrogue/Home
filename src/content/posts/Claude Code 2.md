@@ -3,7 +3,7 @@ title: Claude Code 半月使用体验
 pubDate: 2025-07-07
 categories: ["Article"]
 description: ""
-slug: Claude
+slug: Claude002
 pin: false
 ---
 
